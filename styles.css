@@ -154,6 +154,42 @@ button.signup:hover {
     margin-bottom: 8px;
 }
 
+.info-image:hover {
+    background-color: #e5e7eb;
+}
+
+
+/* QUOTE */
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 900px;
+    gap: 24px;
+}
+
+.quote-text,
+.quote-person {
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.quote-text {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-person {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 /* {
     border: 1px red solid;
 }*/

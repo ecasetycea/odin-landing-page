@@ -15,9 +15,13 @@ body {
 .top,
 .main-body,
 .quote,
-.notif {
+.notif-box {
     width: 1200px;
     margin: 32px 16px;
+}
+
+.notif-box {
+    width: 1000px;
 }
 
 [class*="-container"] {
@@ -103,11 +107,12 @@ button.signup {
     width: 128px;
     padding: 8px;
     border-radius: 8px;
-    border: 1px solid #3882f6;
+    border: 2px solid #3882f6;
 }
 
 button.signup:hover {
     background-color: #f9faf8;
+    border-color: #f9faf8;
     color: #3882f6;
     cursor: pointer;
 }
@@ -190,6 +195,36 @@ button.signup:hover {
     font-weight: bold;
 }
 
-/* {
+
+/* NOTIFICATION */
+.notif-box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.notif {
+    flex: 0 1 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.notif .text .text-up {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.notif .text .text-down {
+    color: #e5e7eb;
+}
+
+button.signup.notif-button {
+    border-color: #f9faf8;
+}
+
+* {
     border: 1px red solid;
 }*/

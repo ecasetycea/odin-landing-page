@@ -10,7 +10,7 @@ body {
     justify-content: center;
 }
 
-/* MAIN PAGE WIDTH (GLOBAL) */
+/* quasi-GLOBALS */
 .header,
 .top,
 .main-body,
@@ -25,6 +25,8 @@ body {
     justify-content: center;
 }
 
+
+/* HEADER */
 .header-container,
 .top-container {
     background-color: #1f2937;
@@ -70,6 +72,8 @@ button.signup {
     color: #1f2937;
 }
 
+
+ /* HERO */
 .top {
     display: flex;
     gap: 32px;
@@ -90,13 +94,16 @@ button.signup {
     font-weight: 900;
 }
 
+.hero .secondary {
+    margin: 24px 0;
+}
+
 button.signup {
     background-color: #3882f6;
     width: 128px;
     padding: 8px;
     border-radius: 8px;
     border: 1px solid #3882f6;
-    margin: 16px 0;
 }
 
 button.signup:hover {
@@ -111,6 +118,40 @@ button.signup:hover {
     align-items: center;
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+
+/* MAIN (INFO) */
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-body .text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info {
+    width: 150px;
+    margin: 32px 0;
+}
+
+.info-image {
+    height: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 16px;
+    margin-bottom: 8px;
 }
 
 /* {

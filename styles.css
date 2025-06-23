@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navigation {
+    display: flex;
+    gap: 16px;
+}
+
+.header .link {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header .link:hover{
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+
+.header,
+.top {
+    background-color: #1f2937;
+}
+
+/* {
+    border: 1px red solid;
+}*/

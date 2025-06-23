@@ -17,7 +17,7 @@ body {
 .quote,
 .notif-box {
     width: 1200px;
-    margin: 32px 16px;
+    margin: 32px 32px;
 }
 
 .notif-box {
@@ -29,13 +29,14 @@ body {
     justify-content: center;
 }
 
-
-/* HEADER */
 .header-container,
-.top-container {
+.top-container,
+.footer {
     background-color: #1f2937;
 }
 
+
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -67,11 +68,16 @@ button.signup {
 .header .link {
     padding: 5px;
     border-radius: 5px;
+}
+
+.header .link,
+.footer p a {
     color: #e5e7eb;
     text-decoration: none;
 }
 
-.header .link:hover {
+.header .link:hover,
+.footer p a:hover {
     background-color: #f9faf8;
     color: #1f2937;
 }
@@ -197,6 +203,10 @@ button.signup:hover {
 
 
 /* NOTIFICATION */
+.notif-container {
+    margin: 50px 0;
+}
+
 .notif-box {
     background-color: #3882f6;
     border-radius: 8px;
@@ -225,6 +235,14 @@ button.signup.notif-button {
     border-color: #f9faf8;
 }
 
-* {
-    border: 1px red solid;
-}*/
+
+/* FOOTER */
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 5px;
+}

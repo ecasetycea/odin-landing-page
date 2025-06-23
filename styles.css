@@ -65,13 +65,10 @@ button.signup {
     gap: 16px;
 }
 
-.header .link {
-    padding: 5px;
-    border-radius: 5px;
-}
-
 .header .link,
 .footer p a {
+    padding: 5px;
+    border-radius: 5px;
     color: #e5e7eb;
     text-decoration: none;
 }
@@ -240,9 +237,13 @@ button.signup.notif-button {
 .footer {
     color: #f9faf8;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .footer p {
-    margin: 5px;
+    margin: 15px;
+}
+
+.footer p a {
+    border: 1px #e5e7eb solid;
 }
